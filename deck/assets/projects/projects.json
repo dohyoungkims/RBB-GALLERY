@@ -1,0 +1,472 @@
+{
+  "source": "Official Clayco project pages and their linked photography. Selected works are a starting point for discussion, not a final exhibition checklist.",
+  "projects": [
+    {
+      "id": "busch",
+      "title": "Busch Stadium and Busch Memorial Stadium Renovations",
+      "location": "St. Louis, Missouri",
+      "significance": "A lasting relationship with the Cardinals, shaping the ballpark experience around the team’s operations.",
+      "url": "https://claycorp.com/project/busch-stadium",
+      "image": "assets/projects/civic-busch-stadium-2.webp",
+      "scope": "Project manager and cost/constructability consultant for the stadium; general contractor for Cardinals corporate offices.",
+      "imageType": "Photography",
+      "members": [
+        {
+          "title": "Busch Memorial Stadium renovations",
+          "url": "https://claycorp.com/project/busch-memorial-stadium",
+          "image": "assets/projects/civic-busch-memorial-stadium-2.webp",
+          "scope": "A separate renovation commission at the former stadium."
+        }
+      ],
+      "shortTitle": "Busch Stadium"
+    },
+    {
+      "id": "kingshighway",
+      "title": "Kingshighway: a neighborhood transformed",
+      "location": "St. Louis, Missouri",
+      "significance": "Homes and healthcare define a shared piece of St. Louis’s evolving skyline.",
+      "url": "https://claycorp.com/project/100-above-the-park",
+      "image": "assets/projects/civic-100-above-the-park-1.webp",
+      "scope": "One urban story spanning three separate commissions: Albion West End, 100 Above the Park and the BJC / Washington University campus renewal. BJC was delivered through the ACW Alliance of Alberici, Clayco and S. M. Wilson.",
+      "imageType": "Photography",
+      "members": [
+        {
+          "title": "Albion West End",
+          "image": "assets/projects/civic-albion-west-end-3.webp",
+          "url": "https://claycorp.com/project/albion-west-end",
+          "imageType": "Rendering",
+          "scope": "Clayco builder; LJC architect; Albion Residential developer."
+        },
+        {
+          "title": "100 Above the Park",
+          "image": "assets/projects/civic-100-above-the-park-1.webp",
+          "url": "https://claycorp.com/project/100-above-the-park",
+          "imageType": "Photography",
+          "scope": "Clayco portfolio project; Studio Gang architect; Mac Properties developer."
+        },
+        {
+          "title": "BJC–Washington University Medical School Campus Renewal",
+          "image": "assets/projects/civic-bjc-washington-university-medical-school-campus-renewal-project-1.webp",
+          "url": "https://claycorp.com/project/bjc-washington-university-medical-school-campus-renewal-project",
+          "imageType": "Photography",
+          "scope": "Clayco as member of ACW Alliance with Alberici and S. M. Wilson; HOK architect."
+        }
+      ],
+      "shortTitle": "Kingshighway / three stories"
+    },
+    {
+      "id": "kali",
+      "title": "Kali Hotel",
+      "location": "Inglewood, California",
+      "significance": "Hospitality at Hollywood Park connects a new guest experience to a major entertainment district.",
+      "url": "https://claycorp.com/project/kali-hotel",
+      "image": "assets/projects/civic-kali-hotel-3.webp",
+      "scope": "Clayco builder; LJC architect.",
+      "imageType": "Rendering",
+      "members": [],
+      "shortTitle": "Kali Hotel"
+    },
+    {
+      "id": "palmtower",
+      "title": "PALMTower",
+      "location": "Phoenix, Arizona",
+      "significance": "A residential tower and shared amenity landscape add a new layer to downtown Phoenix.",
+      "url": "https://claycorp.com/project/palmtower",
+      "image": "assets/projects/civic-palmtower-1.webp",
+      "scope": "Clayco construction with LJC / Will Bruder Architects.",
+      "imageType": "Photography",
+      "members": [],
+      "shortTitle": "PALMtower"
+    },
+    {
+      "id": "upshore",
+      "title": "Upshore Chapter",
+      "location": "Chicago, Illinois",
+      "significance": "A former fast-food site becomes transit-oriented housing and street-level retail in Uptown.",
+      "url": "https://claycorp.com/project/upshore-chapter",
+      "image": "assets/projects/civic-upshore-chapter-1.webp",
+      "scope": "CRG developer; LJC architect; Clayco builder.",
+      "imageType": "Photography",
+      "members": [],
+      "shortTitle": "Upshore Chapter"
+    },
+    {
+      "id": "scad",
+      "title": "SCAD: Indian Street · Forty · Forty Four",
+      "location": "Savannah & Atlanta, Georgia",
+      "significance": "Student living, creative gathering and performance spaces extend an ongoing campus relationship.",
+      "url": "https://claycorp.com/project/scad-forty-four",
+      "image": "assets/projects/civic-scad-forty-four-1.webp",
+      "scope": "Clayco campus partnership; LJC and Mackey Mitchell design teams. Indian Street explicitly identifies Clayco as design-build contractor.",
+      "imageType": "Photography",
+      "members": [
+        {
+          "title": "SCAD Indian Street",
+          "image": "assets/projects/civic-scad-indian-street-1.webp",
+          "url": "https://claycorp.com/project/scad-indian-street",
+          "imageType": "Photography",
+          "scope": "Clayco design-build contractor; LJC garage design; Mackey Mitchell residence hall design."
+        },
+        {
+          "title": "SCAD Forty Residence Hall",
+          "image": "assets/projects/civic-scad-forty-residence-hall-1.webp",
+          "url": "https://claycorp.com/project/scad-forty-residence-hall",
+          "imageType": "Photography",
+          "scope": "Clayco portfolio; LJC / Mackey Mitchell architects."
+        },
+        {
+          "title": "SCAD Forty Four",
+          "image": "assets/projects/civic-scad-forty-four-1.webp",
+          "url": "https://claycorp.com/project/scad-forty-four",
+          "imageType": "Photography",
+          "scope": "Clayco portfolio; LJC / Mackey Mitchell architects."
+        }
+      ],
+      "shortTitle": "SCAD / three places to learn"
+    },
+    {
+      "id": "chaifetz",
+      "title": "Chaifetz Arena at Saint Louis University",
+      "location": "St. Louis, Missouri",
+      "significance": "A campus arena brings athletics, performances and community events together.",
+      "url": "https://claycorp.com/project/chaifetz-arena-at-saint-louis-university",
+      "image": "assets/projects/civic-chaifetz-arena-at-saint-louis-university-1.webp",
+      "scope": "Clayco design-build services; Mackey Mitchell architect.",
+      "imageType": "Photography",
+      "members": [],
+      "shortTitle": "Chaifetz Arena"
+    },
+    {
+      "id": "falcons",
+      "title": "Atlanta Falcons Headquarters & Training",
+      "location": "Flowery Branch, Georgia",
+      "significance": "A purpose-built campus supports the daily work behind professional sport.",
+      "url": "https://claycorp.com/project/atlanta-falcons-corporate-headquarters-and-training-facility",
+      "image": "assets/projects/civic-atlanta-falcons-corporate-headquarters-and-training-facility-1.webp",
+      "scope": "Clayco completed headquarters, indoor practice facility and outdoor fields; Ponder & Ponder architect.",
+      "imageType": "Photography",
+      "members": [],
+      "shortTitle": "Atlanta Falcons"
+    },
+    {
+      "id": "pfizer",
+      "title": "Pfizer Research & Development Facility",
+      "location": "Chesterfield, Missouri",
+      "significance": "A place where science, collaboration and nature meet.",
+      "url": "https://claycorp.com/project/pfizer-rd-facility",
+      "image": "assets/projects/workcare-pfizer-rd-facility-2.webp",
+      "scope": "295,000-square-foot laboratory and office facility delivered by the integrated CRG, LJC and Clayco team; laboratories, pilot plant, courtyard and collaborative workspace.",
+      "imageType": "Photography",
+      "members": [],
+      "shortTitle": "Pfizer R&D"
+    },
+    {
+      "id": "willis",
+      "title": "Willis Tower Transformation",
+      "location": "Chicago, Illinois",
+      "significance": "An existing icon becomes a new civic destination.",
+      "url": "https://claycorp.com/project/willis-tower-transformation-project",
+      "image": "assets/projects/workcare-willis-tower-transformation-project-1.webp",
+      "scope": "Turner–Clayco joint venture reconfigured approximately 460,000 square feet of existing space and delivered the transformation of the base, lobbies and tenant amenities. The source describes more than 300,000 square feet of new Catalog retail, dining and entertainment space.",
+      "imageType": "Photography",
+      "members": [],
+      "shortTitle": "Willis Tower transformation"
+    },
+    {
+      "id": "zurich",
+      "title": "Zurich North America Headquarters",
+      "location": "Schaumburg, Illinois",
+      "significance": "A bold workplace shaped around collaboration and the landscape.",
+      "url": "https://claycorp.com/project/zurich-north-america-headquarters",
+      "image": "assets/projects/workcare-zurich-north-america-headquarters-2.webp",
+      "scope": "Design-build headquarters with 783,800 square feet of office space, an attached garage and extensive landscaped open space. Goettsch Partners designed the building, with Cannon Design as interior architect.",
+      "imageType": "Photography",
+      "members": [],
+      "shortTitle": "Zurich headquarters"
+    },
+    {
+      "id": "centene",
+      "title": "Centene — a connected campus",
+      "location": "Clayton, Missouri",
+      "significance": "A relationship that grew into an interconnected urban campus.",
+      "url": "https://claycorp.com/project/centene-centre",
+      "image": "assets/projects/workcare-centene-centre-1.webp",
+      "scope": "A continuing relationship across the Clayton campus and regional portfolio: Plaza, Centre, a connecting bridge, reclad, garage and public art, with additional work in Farmington, Ferguson and New York. The campus includes a canopy by Liam Gillick and a kinetic facade by Ned Kahn.",
+      "imageType": "Photography",
+      "members": [
+        {
+          "title": "Centene Plaza",
+          "url": "https://claycorp.com/project/centene-plaza",
+          "scope": "21-story tower, public plaza and parking; plaza includes artist Liam Gillick’s illuminated colored-glass canopy.",
+          "location": "Clayton, Missouri",
+          "image": "assets/projects/workcare-centene-plaza-1.webp"
+        },
+        {
+          "title": "Centene Centre",
+          "url": "https://claycorp.com/project/centene-centre",
+          "scope": "Campus expansion, mixed-use program and bridge across Hanley Road.",
+          "location": "Clayton, Missouri",
+          "image": "assets/projects/workcare-centene-centre-1.webp"
+        },
+        {
+          "title": "Centene Reclad",
+          "url": "https://claycorp.com/project/centene-reclad",
+          "scope": "Clayco and Ventana replaced the curtainwall of 10-story Building A to align with the wider campus.",
+          "location": "Clayton, Missouri",
+          "image": "assets/projects/workcare-centene-reclad-1.webp"
+        },
+        {
+          "title": "Centene Plaza Parking Garage",
+          "url": "https://claycorp.com/project/centene-plaza-parking-garage",
+          "scope": "12-level garage and retail, featuring a kinetic facade by Ned Kahn.",
+          "location": "Clayton, Missouri",
+          "image": "assets/projects/workcare-centene-plaza-parking-garage-1.webp"
+        },
+        {
+          "title": "Liam Gillick Canopy at Centene Plaza",
+          "url": "https://claycorp.com/project/liam-gillick-canopy-at-centene-plaza",
+          "scope": "Colored glass canopy connecting work, arrival and public space.",
+          "location": "Clayton, Missouri",
+          "image": "assets/projects/workcare-centene-liam-gillick-canopy.webp"
+        },
+        {
+          "title": "Centene Farmington",
+          "url": "https://claycorp.com/project/centene-farmington",
+          "scope": "Service center on approximately 22 acres with adjacent day care; completed October 2018.",
+          "location": "Farmington, Missouri",
+          "image": "assets/projects/workcare-centene-farmington-1.webp"
+        },
+        {
+          "title": "Centene Claims Processing Center",
+          "url": "https://claycorp.com/project/centene-claims-processing-center",
+          "scope": "Operations, day care and training buildings on eight acres, supporting the community and career training.",
+          "location": "Ferguson, Missouri",
+          "image": "assets/projects/workcare-centene-claims-processing-center-1.webp"
+        },
+        {
+          "title": "Centene Corporation",
+          "url": "https://claycorp.com/project/centene-corporation",
+          "scope": "3,500-square-foot tenant office build-out at 55th Street and Park Avenue.",
+          "location": "New York, New York"
+        }
+      ],
+      "shortTitle": "Centene campus + portfolio"
+    },
+    {
+      "id": "dominion",
+      "title": "Dominion Energy’s Thomas F. Farrell Building",
+      "location": "Richmond, Virginia",
+      "significance": "A workplace that reshapes a city block.",
+      "url": "https://claycorp.com/project/dominion-energy-new-downtown-office-tower",
+      "image": "assets/projects/workcare-dominion-energy-new-downtown-office-tower-1.webp",
+      "scope": "Hourigan Construction and Clayco teamed on design-build services for the 20-story, approximately one-million-square-foot office tower, with workplace, retail, amenities and parking.",
+      "imageType": "Photography",
+      "members": [],
+      "shortTitle": "Dominion Energy"
+    },
+    {
+      "id": "siteman",
+      "title": "Gary C. Werths Building at Siteman Cancer Center",
+      "location": "St. Louis, Missouri",
+      "significance": "Specialist care brought together around patients and families.",
+      "url": "https://claycorp.com/project/washington-university-school-of-medicine-barnes-jewish-hospital-siteman-cancer-center",
+      "image": "assets/projects/workcare-washington-university-school-of-medicine-barnes-jewish-hospital-siteman-cancer-center-1.webp",
+      "scope": "Nine-story ambulatory cancer care center with examination rooms, private infusion bays, imaging, laboratories, parking and a link to the Washington University Medical Campus; Clayco–TW Constructors project.",
+      "imageType": "Photography",
+      "members": [],
+      "shortTitle": "Siteman Cancer Center"
+    },
+    {
+      "id": "mercy",
+      "title": "Mercy Virtual Care Center",
+      "location": "Chesterfield, Missouri",
+      "significance": "Care that reaches far beyond the building’s walls.",
+      "url": "https://claycorp.com/project/mercy-virtual-care-center",
+      "image": "assets/projects/workcare-mercy-virtual-care-center-2.webp",
+      "scope": "125,000-square-foot design-build facility supporting telemedicine, care management, research analytics and 24/7 virtual care. LJC architect.",
+      "imageType": "Photography",
+      "members": [],
+      "shortTitle": "Mercy Virtual Care"
+    },
+    {
+      "id": "lurie",
+      "title": "Lurie Children’s Hospital and Outpatient Center",
+      "location": "Downers Grove, Illinois",
+      "significance": "A new gateway to specialist pediatric care in Chicago’s western suburbs.",
+      "url": "https://claycorp.com/project/lurie-childrens-hospital-and-outpatient-center",
+      "image": "assets/projects/workcare-lurie-childrens-hospital-and-outpatient-center-1.webp",
+      "scope": "Proposed nearly 298,000-square-foot pediatric hospital, emergency department and outpatient center. Clayco and LJC are identified as the design-build team; architects LJC and ZGF.",
+      "imageType": "Rendering",
+      "members": [],
+      "shortTitle": "Lurie Children’s"
+    },
+    {
+      "id": "rbb",
+      "title": "Russell Burns Building",
+      "location": "Berkeley, Missouri",
+      "significance": "Our own workplace becomes a living expression of the enterprise.",
+      "url": "https://claycorp.com/project/clayco-st-louis-office",
+      "image": "assets/projects/workcare-clayco-st-louis-office-1.webp",
+      "scope": "Renovated 230,000-square-foot St. Louis home office occupied by Clayco in 2024. Clayco originally developed, designed and built the building in 2012 for Express Scripts.",
+      "imageType": "Photography",
+      "members": [],
+      "shortTitle": "Russell Burns Building"
+    },
+    {
+      "id": "vanguard",
+      "title": "Vanguard Charlotte Campus",
+      "location": "Charlotte, North Carolina",
+      "significance": "A campus organized around people, nature and connection.",
+      "url": "https://claycorp.com/project/vanguard-office-campus",
+      "image": "assets/projects/workcare-vanguard-office-campus-1.webp",
+      "scope": "Campus of office space, training, early childhood development and landscape amenities; Clayco responsible for construction and sitework. Official page lists 770,000 square feet, LS3P as architect and an 80-acre campus.",
+      "imageType": "Photography",
+      "members": [],
+      "shortTitle": "Vanguard / Charlotte"
+    },
+    {
+      "id": "rivian",
+      "title": "Rivian R2 Plant Expansion",
+      "location": "Normal, Illinois",
+      "significance": "Adapting an active manufacturing campus for a new generation of electric vehicles.",
+      "url": "https://claycorp.com/project/rivian-r2-plant-expansion",
+      "image": "assets/projects/industrial-rivian.webp",
+      "scope": "Expansion, renovation and repurposing of Rivian’s existing manufacturing campus, including a new 1.1 million SF R2 facility; total work exceeds 2.1 million SF.",
+      "imageType": "Photography",
+      "members": [],
+      "shortTitle": "Rivian R2 expansion"
+    },
+    {
+      "id": "hankook",
+      "title": "Hankook Tire Manufacturing Facility Expansion",
+      "location": "Clarksville, Tennessee",
+      "significance": "Expanding domestic production capacity through a tightly integrated manufacturing campus.",
+      "url": "https://claycorp.com/project/hankook-tire-manufacturing-facility-expansion",
+      "image": "assets/projects/industrial-hankook.webp",
+      "scope": "2.2 million SF of new production and support facilities at the existing Hankook campus, supporting passenger-car and truck/bus tire lines.",
+      "imageType": "Photography",
+      "members": [],
+      "shortTitle": "Hankook Tire"
+    },
+    {
+      "id": "psiquantum",
+      "title": "Illinois Quantum and Microelectronics Park",
+      "location": "Chicago, Illinois",
+      "significance": "Reimagining a former steelworks as infrastructure for quantum discovery.",
+      "url": "https://claycorp.com/project/psiquantum-campus",
+      "image": "assets/projects/industrial-psiquantum.webp",
+      "scope": "128-acre quantum innovation campus in the broader 440-acre Quantum Shore Chicago master plan; first IQMP phase designed by LJC with Clayco as general contractor.",
+      "imageType": "Rendering",
+      "members": [],
+      "shortTitle": "PsiQuantum / IQMP"
+    },
+    {
+      "id": "galaxy-helios",
+      "title": "Galaxy Digital Helios Conversion",
+      "location": "Afton, Texas",
+      "significance": "Converting existing infrastructure for the next era of high-performance computing.",
+      "url": "https://claycorp.com/project/galaxy-digital-helios-renovation",
+      "image": "assets/projects/industrial-galaxy-helios.webp",
+      "scope": "Initial 133 MW liquid-cooled AI infrastructure deployment, with power assemblies, chillers, slab/foundation upgrades and structural work.",
+      "imageType": "Construction photography",
+      "members": [],
+      "shortTitle": "Galaxy Helios"
+    },
+    {
+      "id": "related-digital",
+      "title": "Related Digital Cheyenne Data Center Campus",
+      "location": "Cheyenne, Wyoming",
+      "significance": "Building scalable AI infrastructure with air-cooled systems designed to reduce water demand.",
+      "url": "https://claycorp.com/project/related-digital-cheyenne-data-center-campus",
+      "image": "assets/projects/industrial-related-digital.webp",
+      "scope": "Construction management for the first phase of a 115-acre campus; first facility provides 88 MW critical IT capacity, with longer-term plans up to 302 MW.",
+      "imageType": "Rendering",
+      "members": [],
+      "shortTitle": "Related Digital"
+    },
+    {
+      "id": "sk-battery",
+      "title": "SK Battery America, Inc.",
+      "location": "Commerce, Georgia",
+      "significance": "An American manufacturing base for the electric-vehicle battery supply chain.",
+      "url": "https://claycorp.com/project/sk-battery-america-inc",
+      "image": "assets/projects/industrial-sk-battery.webp",
+      "scope": "Two phases totaling 2.4 million SF for SK Innovation’s first U.S. EV battery factory, plus ancillary facilities and infrastructure.",
+      "imageType": "Photography",
+      "members": [],
+      "shortTitle": "SK Battery"
+    },
+    {
+      "id": "blue-origin",
+      "title": "Blue Origin Engine Facility",
+      "location": "Huntsville, Alabama",
+      "significance": "Connecting engineering and manufacturing to support the next generation of spaceflight.",
+      "url": "https://claycorp.com/project/blue-origin-engine-facility",
+      "image": "assets/projects/industrial-blue-origin.webp",
+      "scope": "400,000 SF of rocket-engine fabrication/manufacturing and engineering, collaboration and administrative space; turnkey design, engineering and construction by Clayco and LJC.",
+      "imageType": "Photography",
+      "members": [],
+      "shortTitle": "Blue Origin"
+    },
+    {
+      "id": "hershey-garage",
+      "title": "Penn State Health Westview Garage",
+      "location": "Hershey, Pennsylvania",
+      "significance": "Making the everyday arrival at a healthcare campus more welcoming.",
+      "url": "https://claycorp.com/project/penn-state-health-westview-garage",
+      "image": "assets/projects/industrial-hershey-garage.webp",
+      "scope": "More than 1,200 parking spaces and a loop road supporting growth of the Penn State Health Milton S. Hershey Medical Center campus.",
+      "imageType": "Photography",
+      "members": [],
+      "shortTitle": "Hershey / Westview Garage"
+    },
+    {
+      "id": "the-cubes",
+      "title": "The Cubes",
+      "location": "Multiple locations",
+      "significance": "A repeatable industrial platform tailored to regional logistics networks.",
+      "url": "https://claycorp.com/project/the-cubes",
+      "image": "assets/projects/industrial-the-cubes.webp",
+      "scope": "CRG’s industrial development portfolio in regional logistics hubs, with Clayco and LJC delivery relationships across individual campuses.",
+      "imageType": "Portfolio photography",
+      "members": [],
+      "shortTitle": "The Cubes"
+    },
+    {
+      "id": "amazon",
+      "title": "Amazon E-Commerce Centers",
+      "location": "Multiple locations",
+      "significance": "A long-running delivery relationship supporting the movement of goods across the country.",
+      "url": "https://claycorp.com/project/amazon-e-commerce-centers",
+      "image": "assets/projects/industrial-amazon.webp",
+      "scope": "A national portfolio of fulfillment and distribution facilities, with individual locations and sizes listed on Clayco’s official page.",
+      "imageType": "Portfolio photography",
+      "members": [],
+      "shortTitle": "Amazon"
+    },
+    {
+      "id": "caterpillar",
+      "title": "Caterpillar Excavator Manufacturing Plant",
+      "location": "Victoria, Texas",
+      "significance": "Bringing production systems and building design together around the work of making.",
+      "url": "https://claycorp.com/project/caterpillar-excavator-manufacturing-plant",
+      "image": "assets/projects/industrial-caterpillar.webp",
+      "scope": "More than 900,000 SF for hydraulic-excavator subassembly, assembly, painting and inspection, delivered through Clayco and LJC design-build services.",
+      "imageType": "Photography",
+      "members": [],
+      "shortTitle": "Caterpillar"
+    },
+    {
+      "id": "mark-anthony",
+      "title": "Mark Anthony Brewing",
+      "location": "Columbia, South Carolina",
+      "significance": "An integrated production environment that turns complex process requirements into industrial scale.",
+      "url": "https://claycorp.com/project/mark-anthony-brewery",
+      "image": "assets/projects/industrial-mark-anthony.webp",
+      "scope": "1.2 million SF brewing and packaging facility integrating process engineering, procurement, architectural design and construction.",
+      "imageType": "Photography",
+      "members": [],
+      "shortTitle": "Mark Anthony Brewing"
+    }
+  ]
+}

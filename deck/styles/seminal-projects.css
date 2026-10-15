@@ -1,0 +1,56 @@
+/* Building photographs lead; the source-derived Osmo focus motion stays restrained. */
+.seminal-projects { background:#000; color:#fff; }
+.seminal-projects .scene-inner { padding:0; }
+.seminal-projects .eyebrow { position:absolute; left:100px; top:76px; font-size:24px; letter-spacing:.12em; font-weight:400; }
+.seminal-projects h2 { position:absolute; left:100px; right:100px; top:130px; margin:0; font-size:90px; font-weight:500; letter-spacing:-.045em; line-height:1.03; text-wrap:balance; }
+.seminal-projects__intro { position:absolute; left:103px; top:235px; margin:0; font-size:26px; line-height:1.35; max-width:1500px; color:#fff; }
+.seminal-projects [data-interactive-collage-init] { position:absolute; left:100px; width:1720px; top:330px; height:285px; isolation:isolate; }
+.seminal-projects [data-interactive-collage-init] ~ [data-interactive-collage-init] { top:660px; }
+.seminal-projects [data-interactive-collage-list] { display:flex; align-items:flex-start; gap:26px; width:100%; height:100%; }
+.seminal-projects [data-interactive-collage-item] { flex:var(--tile-width,1) 1 0; min-width:0; position:relative; transform:translateY(var(--tile-offset,0px)); }
+.seminal-projects [data-interactive-collage-item]:nth-child(2n) { --tile-offset:10px; }
+.seminal-projects [data-interactive-collage-item]:nth-child(3n) { --tile-offset:-10px; }
+.seminal-projects [data-interactive-collage-item-inner] { display:block; width:100%; padding:0; border:0; border-radius:0; color:#fff; background:transparent; text-align:left; font:inherit; transform-origin:center center; will-change:transform; }
+.seminal-projects [data-interactive-collage-item-inner] img { display:block; width:100%; height:215px; object-fit:cover; object-position:var(--image-position,center); background:#000; }
+.seminal-projects [data-interactive-collage-item-inner] :is(figcaption,.project-caption,.seminal-projects__caption) { display:block; margin:15px 0 0; padding:0; font-size:24px; font-weight:400; letter-spacing:-.018em; line-height:1.2; text-wrap:balance; }
+.seminal-projects [data-interactive-collage-item-inner] :is(figcaption,.project-caption,.seminal-projects__caption) strong { font-weight:500; }
+.seminal-projects [data-interactive-collage-item-inner] :is(figcaption,.project-caption,.seminal-projects__caption) small { display:block; margin-top:5px; font-size:17px; line-height:1.2; color:#b9b9b9; letter-spacing:0; }
+.seminal-projects [data-interactive-collage-focus] { z-index:2; }
+.seminal-projects [data-interactive-collage-item-inner]:focus-visible { outline:2px solid #fff; outline-offset:8px; }
+.seminal-projects__footer { position:absolute; left:100px; right:100px; bottom:85px; display:flex; justify-content:space-between; gap:32px; margin:0; font-size:18px; line-height:1.4; color:#b9b9b9; }
+.seminal-projects__footer a { color:inherit; text-underline-offset:5px; }
+.seminal-projects--still [data-interactive-collage-item-inner] { will-change:auto; }
+
+.seminal-project-dialog { position:fixed; inset:0; width:100vw; height:100dvh; max-width:none; max-height:none; margin:0; padding:0; border:0; background:#000; color:#fff; font-family:var(--font-sans,"Helvetica Neue",Helvetica,Arial,sans-serif); }
+.seminal-project-dialog::backdrop { background:#000; backdrop-filter:none; }
+.seminal-project-dialog[open] { display:grid; grid-template-rows:auto minmax(0,1fr) auto; }
+.seminal-project-dialog__bar { display:flex; align-items:center; justify-content:space-between; gap:20px; padding:25px 3vw; }
+.seminal-project-dialog__bar p { margin:0; font-size:12px; letter-spacing:.12em; }
+.seminal-project-dialog button { border:0; border-radius:0; background:transparent; color:#fff; font:inherit; }
+.seminal-project-dialog__close { display:flex; align-items:center; gap:18px; padding:8px 0 8px 16px; font-size:17px!important; }
+.seminal-project-dialog__close span { font-size:30px; font-weight:300; line-height:.8; }
+.seminal-project-dialog__body { display:grid; grid-template-columns:minmax(0,1.8fr) minmax(270px,.8fr); gap:4vw; min-height:0; padding:10px 3vw 20px; }
+.seminal-project-dialog__figure { display:flex; flex-direction:column; justify-content:center; min-width:0; min-height:0; margin:0; }
+.seminal-project-dialog__figure img { display:block; width:100%; height:auto; max-width:100%; max-height:calc(100dvh - 185px); object-fit:contain; }
+.seminal-project-dialog__figure figcaption { margin-top:13px; color:#aaa; font-size:12px; line-height:1.4; }
+.seminal-project-dialog__copy { align-self:center; max-height:100%; overflow:auto; padding:12px 3px 12px 0; }
+.seminal-project-dialog__location { margin:0 0 18px; font-size:12px; letter-spacing:.06em; line-height:1.5; color:#aaa; }
+.seminal-project-dialog h2 { margin:0 0 22px; font-size:clamp(25px,3vw,56px); font-weight:500; letter-spacing:-.045em; line-height:1.02; text-wrap:balance; }
+.seminal-project-dialog__meaning { margin:0 0 18px; font-size:clamp(17px,1.5vw,26px); line-height:1.3; letter-spacing:-.015em; text-wrap:pretty; }
+.seminal-project-dialog__scope { margin:0 0 22px; font-size:clamp(14px,1.05vw,19px); line-height:1.5; color:#bbb; text-wrap:pretty; }
+.seminal-project-dialog__source { display:inline-block; padding:5px 0; font-size:14px; color:#fff; text-decoration:underline; text-underline-offset:6px; }
+.seminal-project-dialog__members { display:flex; flex-direction:column; align-items:flex-start; gap:5px; margin-top:26px; padding-top:20px; border-top:1px solid #555; }
+.seminal-project-dialog__members button { padding:6px 0; text-align:left; font-size:14px; line-height:1.35; color:#aaa; }
+.seminal-project-dialog__members button[aria-pressed=true] { color:#fff; text-decoration:underline; text-underline-offset:5px; }
+.seminal-project-dialog__navigation { display:flex; align-items:center; justify-content:space-between; gap:15px; padding:12px 3vw 25px; }
+.seminal-project-dialog__navigation button { padding:8px 0; font-size:15px; }
+.seminal-project-dialog__count { margin:0; font-size:12px; font-variant-numeric:tabular-nums; color:#aaa; }
+@media(max-width:700px) {
+  .seminal-project-dialog__body { grid-template-columns:1fr; align-content:start; overflow:auto; gap:20px; }
+  .seminal-project-dialog__figure img { max-height:46dvh; }
+  .seminal-project-dialog__copy { overflow:visible; }
+  .seminal-project-dialog h2 { font-size:30px; }
+  .seminal-project-dialog__bar { padding-top:16px; }
+  .seminal-project-dialog__navigation { padding-bottom:16px; }
+}
+@media(prefers-reduced-motion:reduce) { .seminal-projects [data-interactive-collage-item-inner] { will-change:auto; } }

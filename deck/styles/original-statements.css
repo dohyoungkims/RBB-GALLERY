@@ -1,0 +1,49 @@
+/* Original proposal text remains verbatim. Layout follows the deck's quiet,
+   full-frame sans-serif exhibition typography; source paragraphs remain editable HTML. */
+.source-statement{background:#000000;color:var(--paper)}
+.source-statement .scene-inner{padding:102px 110px 104px}
+.source-statement h2{position:static;max-width:1660px;font-size:88px;line-height:1.075;letter-spacing:-.045em;white-space:pre-line}
+.source-statement__body{font-family:inherit;font-size:35px;line-height:1.43;letter-spacing:-.012em}
+.source-statement__body p{margin:0;white-space:pre-line}
+.source-statement__body p+p{margin-top:28px}
+.source-portrait .source-statement__body{display:grid;grid-template-columns:1.25fr 1fr 1fr;gap:66px;margin-top:68px}
+.source-portrait .source-statement__body p+p{margin-top:0}
+.source-purpose h2{font-size:76px;line-height:1.13;max-width:1700px}
+.source-purpose .source-statement__body{display:grid;grid-template-columns:1fr 1fr;gap:92px;margin-top:60px;font-size:32px;line-height:1.43}
+.source-invitation .source-invitation-copy{position:absolute;left:110px;right:130px;bottom:130px;margin:0;max-width:1640px;font-family:inherit;font-style:normal;font-size:80px;line-height:1.22;letter-spacing:-.025em}
+.source-invitation-line{display:block;white-space:nowrap}
+.source-art-pair .scene-inner{display:grid;grid-template-columns:1fr 1fr;gap:146px;padding:78px 200px 82px}
+.source-art-pair figure{margin:0;min-width:0;width:calc(800px * 2 / 3);max-width:100%;justify-self:center}
+.source-art-pair .source-art-frame{height:800px;display:flex;align-items:center;justify-content:center}
+.source-art-pair img{display:block;height:100%;width:auto;max-width:100%;object-fit:contain}
+.source-caption{font-family:inherit;font-size:23px;line-height:1.35;letter-spacing:-.006em;white-space:pre-line;margin:22px 0 0}
+.source-caption strong{font-weight:500}
+.source-caption em{font-style:normal}
+.source-art-pair .source-caption{font-size:20px;line-height:1.4;margin-top:18px;white-space:normal;text-align:left}
+.source-collection-mission .scene-inner{display:grid;grid-template-columns:880px 1fr;gap:94px;padding:91px 100px 88px}
+.source-mission-copy{font-family:inherit;font-size:26.5px;line-height:1.34;letter-spacing:-.006em}
+.source-mission-copy p{margin:0;white-space:pre-line}
+.source-mission-copy p+p{margin-top:21px}
+.source-collection-mission figure{margin:0;align-self:start}
+.source-installation-frame{position:relative;width:100%;aspect-ratio:6087237 / 6513983;overflow:hidden}
+.source-installation-frame img{position:absolute;display:block;width:100.001%;height:137.8077%;max-width:none;left:0;top:-24.9308%;object-fit:fill}
+.source-collection-mission .source-caption{font-size:22px;line-height:1.4;margin-top:20px}
+.hope-plaza{background:var(--paper)}
+.hope-plaza .scene-inner{padding:88px 100px 80px}
+.hope-plaza h2{position:static;font-size:110px;line-height:1.02;letter-spacing:-.05em;max-width:1600px}
+.hope-plaza .eyebrow{margin-bottom:30px}
+.hope-plaza__layout{display:grid;grid-template-columns:minmax(0,1.38fr) minmax(0,1fr);gap:70px;margin-top:48px;align-items:start}
+.hope-plaza figure{margin:0;min-width:0}
+.hope-plaza figure img{display:block;width:100%;height:530px;object-fit:contain;object-position:0 0}
+.hope-plaza__copy{font-family:inherit;font-size:34px;line-height:1.4;letter-spacing:-.015em}
+.hope-plaza__copy p{margin:0 0 24px}
+.hope-plaza__copy .hope-plaza__interpretation{font-size:28px;line-height:1.4;margin-top:36px}
+.hope-plaza__interpretation span{display:block;font-family:inherit;font-size:17px;letter-spacing:.06em;text-transform:uppercase;margin-bottom:12px}
+.hope-plaza__credit{font-size:20px;line-height:1.4;color:#65675f;margin:18px 0 0}
+.hope-plaza__source{position:absolute;bottom:80px;left:100px;right:100px;margin:0;font-size:20px;line-height:1.4;color:#65675f}
+.hope-plaza__source a{color:inherit;text-decoration:underline;text-underline-offset:4px}
+.hope-plaza-sculpture .hope-plaza__layout{grid-template-columns:1.5fr 1fr}
+.hope-plaza-sculpture figure img{height:500px}
+
+/* One quiet sans-serif voice for editorial copy and artwork credits. */
+.hope-plaza em{font-style:normal}

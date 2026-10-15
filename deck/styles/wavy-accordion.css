@@ -1,0 +1,91 @@
+/* Licensed Osmo Wavy Accordion, fitted to the presentation's design canvas. */
+.office-art { background: #000; color: #fff; }
+.office-art h2 { font-size:82px;line-height:1.05;letter-spacing:-.045em;margin:22px 0 0;white-space:nowrap; }
+.office-art__hint { position:absolute;left:100px;bottom:70px;margin:0;font-size:20px;line-height:1.4;opacity:.65; }
+.office-art .wavy-accordion {
+  position: absolute;
+  left: 100px;
+  top: 270px;
+  width: 1720px;
+  height: 650px;
+}
+.wavy-accordion { position: relative; width: 100%; height: 650px; background: #000; }
+.wavy-accordion__canvas {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  opacity: 0;
+}
+.wavy-accordion__collection { position: relative; width: 100%; height: 100%; }
+.wavy-accordion__list { display: flex; flex-direction: row; gap: 10px; width: 100%; height: 100%; }
+.wavy-accordion__item {
+  position: relative;
+  flex: 1 1 0;
+  min-width: 0;
+  min-height: 0;
+  overflow: hidden;
+  border-radius: 0;
+}
+.wavy-accordion__link {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: #fff;
+  font: inherit;
+  text-align: left;
+  text-decoration: none;
+  cursor: pointer;
+}
+.wavy-accordion__link:focus-visible { outline: 2px solid #fff; outline-offset: -6px; }
+.wavy-accordion__image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  opacity: 1;
+}
+[data-wavy-accordion-status="ready"] .wavy-accordion__canvas { opacity: 1; }
+[data-wavy-accordion-status="ready"] .wavy-accordion__image { opacity: 0; }
+.wavy-accordion__label {
+  position: absolute;
+  left: 22px;
+  right: 22px;
+  bottom: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-top: 35px;
+  white-space: nowrap;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity .35s ease, transform .6s cubic-bezier(.22,1,.36,1);
+  pointer-events: none;
+  isolation: isolate;
+}
+.wavy-accordion__label::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: -25px -22px -22px;
+  background: linear-gradient(transparent, rgba(0,0,0,.7));
+}
+[data-wavy-accordion-item-status="active"] .wavy-accordion__label {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: .15s;
+}
+.wavy-accordion__title { font: 400 25px/1.2 var(--font-sans, "Helvetica Neue", Helvetica, Arial, sans-serif); letter-spacing: -.015em; }
+.wavy-accordion__meta { font: 400 17px/1.4 var(--font-sans, "Helvetica Neue", Helvetica, Arial, sans-serif); color: #fff; }
+.wavy-accordion--still .wavy-accordion__label { transition: none; }
+@media (prefers-reduced-motion: reduce) { .wavy-accordion__label { transition: none; } }
