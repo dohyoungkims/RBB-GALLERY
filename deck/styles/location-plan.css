@@ -1,0 +1,35 @@
+/* A quiet orientation plate. All positions here are scoped to the new scene. */
+.location-overview{background:var(--paper,#f4f2eb);color:var(--ink,#252622)}
+.location-overview .eyebrow{position:absolute;left:100px;top:91px}
+.location-overview h2{position:absolute;left:100px;top:240px;margin:0;font-size:86px;line-height:1.07;letter-spacing:-.05em;max-width:600px;font-weight:400}
+.location-plan-host{position:absolute;left:725px;top:178px;width:1095px;height:740px}
+.location-plan{--lp-ink:var(--ink,#252622);--lp-red:var(--red,#a82035);--lp-line:#b5b6ac;display:flex;flex-direction:column;color:var(--lp-ink)}
+.location-plan .lp-drawing{display:block;width:100%;height:auto;min-height:0;flex:1;overflow:visible}
+.location-plan .lp-floor{fill:#eae8e0;stroke:#b5b6ac;stroke-width:2.5;stroke-linejoin:round}
+.location-plan .lp-context-line,.location-plan .lp-stair,.location-plan .lp-entry{fill:none;stroke:var(--lp-line);stroke-width:2;stroke-linejoin:round}
+.location-plan .lp-stair{stroke-width:1.8}
+.location-plan .lp-entry{stroke:#82857c;stroke-width:2.5}
+.location-plan .lp-source-detail{fill:none;stroke:#b4a8a3;stroke-width:1.8}
+.location-plan .lp-route{fill:none;stroke:var(--lp-red);stroke-width:2.3;stroke-linejoin:round;stroke-linecap:round;opacity:.75}
+.location-plan .lp-junction{fill:var(--lp-red)}
+.location-plan .lp-zone-area{fill:#b04d5b;fill-opacity:.13;stroke:var(--lp-red);stroke-width:2.5;stroke-linejoin:round}
+.location-plan .lp-zone{cursor:pointer}
+.location-plan .lp-marker circle{fill:var(--lp-red)}
+.location-plan .lp-marker text{fill:var(--paper,#f4f2eb);font-family:inherit;font-size:29px;font-weight:400;letter-spacing:-.02em}
+.location-plan .lp-zone.is-emphasized .lp-zone-area,.location-plan .lp-zone.is-selected .lp-zone-area{fill-opacity:.25;stroke-width:3.5}
+.location-plan .lp-map-labels{font-family:inherit;fill:#62665e;font-size:24px;letter-spacing:.01em}
+.location-plan .lp-map-labels path{fill:none;stroke:#73776e;stroke-width:1.7}
+.location-plan .lp-map-labels .lp-entrance-label{font-size:26px;fill:var(--lp-ink)}
+.location-plan .lp-legend{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin-top:22px;flex:none}
+.location-plan .lp-location{display:flex;align-items:flex-start;gap:13px;min-width:0;padding:20px 0 16px;text-align:left;color:inherit;background:none;border:0;border-top:1px solid #25262240;border-radius:0;font-family:inherit;cursor:pointer}
+.location-plan .lp-legend-number{color:var(--lp-red);font-size:18px;line-height:1.5;letter-spacing:.02em;flex:none}
+.location-plan .lp-legend-copy{display:block;min-width:0}
+.location-plan .lp-legend-name{display:block;font-size:25px;line-height:1.15;letter-spacing:-.025em;white-space:nowrap}
+.location-plan .lp-legend-detail{display:block;font-size:17px;line-height:1.4;color:#65675f;margin-top:10px;max-width:260px}
+.location-plan .lp-legend-arrow{font-size:22px;line-height:1.2;margin-left:auto;padding-left:4px;opacity:.65}
+.location-plan .lp-location:hover,.location-plan .lp-location.is-selected{border-color:var(--lp-red)}
+.location-plan .lp-location:focus-visible{outline:2px solid var(--lp-red);outline-offset:7px}
+.location-plan .lp-source-note{margin:19px 0 0;font-size:16px;line-height:1.4;color:#65675f;letter-spacing:.005em;flex:none}
+.location-plan.lp-static .lp-zone,.location-plan.lp-static .lp-location{cursor:default}
+.location-plan.lp-static .lp-legend-arrow{display:none}
+@media(prefers-reduced-motion:reduce){.location-plan *{transition:none!important;animation:none!important}}

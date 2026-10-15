@@ -1,9 +1,12 @@
 import { mountArtField } from './art-field.js';
+import { mountProjectField } from './project-field.js';
 import { mountArcTransition } from './arc-transition.js';
 import { mountMuseumMenu } from './museum-menu.js';
-import { addQueuedReveal, createQueuedReveal } from './queued-reveal.js';
+import { addSceneReveal, settleSceneReveal, SCENE_MOTION } from './scene-reveal.js';
 import { mountVariableTitle } from './variable-title.js';
 import { createSeminalProjects } from './seminal-projects.js';
+import { createHopeGallery } from './hope-gallery.js';
+import { createSpaceOpportunities } from './space-opportunities.js';
 
 const $ = selector => document.querySelector(selector);
 const scenes = [...document.querySelectorAll('.scene')];
@@ -18,9 +21,10 @@ for (const element of [stage, $('#deck-chrome'), $('#slide-navigation')]) if (el
 const nav = $('#slide-navigation');
 const timelines = window.__timelines ||= {};
 const focus = { value: 0 };
-let art, artworks = [], museumMenu, officeAccordion, officeAccordionPromise;
+let art, projectField, artworks = [], museumMenu, officeAccordion, officeAccordionPromise;
 let queue = null, navigationTarget = 0, autoTimer, transition, menuBusy = false;
 let menuWanted = false, menuGeneration = 0, menuPromise = Promise.resolve(true), menuSheetTween;
+const isProjectCover = scene => scene?.dataset.compositionId === 'invitation-cover';
 const isCollection = scene => scene?.dataset.compositionId === 'collection';
 const isOverlay = () => !$('#overview').hidden || !!document.querySelector('dialog[open]');
 const moving = () => state.motion && !reduced.matches && !document.hidden && !isOverlay();
@@ -29,6 +33,8 @@ const variableTitle = mountVariableTitle($('.cover-title'), {
  enabled: () => isCollection(scenes[state.index]) && !state.transitioning && moving() && state.mode === 'live'
 });
 const seminalProjects = createSeminalProjects({ onOpen: pauseForOverlay, onClose: refreshMotion });
+const hopeGallery = createHopeGallery();
+const spaceOpportunities = createSpaceOpportunities({ onNavigate: go, onOpen: pauseForOverlay, onClose: refreshMotion });
 
 function resize() {
  const root = document.documentElement, width = root.clientWidth, height = root.clientHeight;
@@ -68,13 +74,14 @@ function updateChrome() {
  $('#motion-button')?.setAttribute('aria-pressed', String(state.motion));
  setText('#status', `Slide ${state.index + 1}. ${current.dataset.label}`);
  if (nav) {
-  nav.dataset.theme = current.matches('.source-statement,.invitation-cover,.seminal-projects,.office-art') ? 'dark' : 'light';
+  nav.dataset.theme = current.matches('.source-statement,.invitation-cover,.seminal-projects,.office-art,.space-opportunity--night') ? 'dark' : 'light';
   nav.hidden = menuWanted || menuBusy;
   nav.inert = menuWanted || menuBusy;
  }
  museumMenu?.setIndex(state.index);
 }
 async function prepareScene(scene) {
+ await Promise.all([hopeGallery.prepare(scene), spaceOpportunities.prepare(scene)]);
  if (scene.dataset.compositionId === 'office-art') {
   if (!officeAccordionPromise) officeAccordionPromise = import('./wavy-accordion.js').then(async ({ mountWavyAccordion }) => {
    const root = scene.querySelector('[data-wavy-accordion-init]');
@@ -91,21 +98,26 @@ async function prepareScene(scene) {
  }
 }
 function stopAmbient(scene) {
+ if (isProjectCover(scene)) projectField?.setActive(false);
  if (scene?.dataset.compositionId === 'office-art') officeAccordion?.setActive(false);
  if (isCollection(scene)) { variableTitle.setActive(false); art?.setActive(false); }
- seminalProjects.pause();
+ seminalProjects.pause(); hopeGallery.pause(); spaceOpportunities.pause();
 }
 function startAmbient(scene) {
+ projectField?.setMotion(moving() && state.mode === 'live');
+ projectField?.setActive(isProjectCover(scene) && moving() && state.mode === 'live');
  if (scene.dataset.compositionId === 'office-art') {
   officeAccordion?.setMotion(moving() && state.mode === 'live');
   officeAccordion?.setActive(true);
  }
  const collection = isCollection(scene);
  variableTitle.setActive(collection && moving() && state.mode === 'live');
- if ($('#art-field')) { $('#art-field').inert = !collection; $('#art-field').style.opacity = collection ? '1' : '0'; }
+ if ($('#art-field')) { $('#art-field').inert = !collection; $('#art-field').setAttribute('aria-hidden', String(!collection)); $('#art-field').style.opacity = collection ? '1' : '0'; }
  art?.setMotion(moving() && state.mode === 'live');
  art?.setActive(collection && moving() && state.mode === 'live');
  seminalProjects.activate(scene, { motion: moving() && state.mode === 'live' });
+ hopeGallery.activate(scene, { motion: moving() && state.mode === 'live' });
+ spaceOpportunities.activate(scene, { motion: moving() && state.mode === 'live' });
 }
 function refreshMotion() {
  const scene = scenes[state.index];
@@ -139,42 +151,44 @@ async function go(index, { instant = false, seek = false } = {}) {
  await prepareScene(to);
  const hasFrom = from.classList.contains('active');
  state.index = index; updateChrome();
- const arc = !instant && !reduced.matches && hasFrom ? arcs.begin(to, { direction, curve: 12 }) : null;
+ const animate = !instant && !reduced.matches && state.motion && state.mode === 'live';
+ const mapMorph = spaceOpportunities.beginTransition(from, to, { duration: SCENE_MOTION.duration, motion: animate && hasFrom });
+ const arc = animate ? arcs.begin(to, { direction, curve: 12 }) : null;
  to.classList.add('active'); to.inert = false; to.setAttribute('aria-hidden', 'false');
  from.inert = true; from.style.pointerEvents = 'none';
  to.style.zIndex = '3'; from.style.zIndex = '2';
  timelines[to.dataset.compositionId].progress(1).pause();
  gsap.set(to.querySelector('.scene-inner'), { clearProps: 'transform,opacity' });
  if (isCollection(to)) { art?.setActive(moving()); focus.value = 1; art?.setFocus(1); $('#art-field').style.opacity = '1'; }
- const duration = instant || reduced.matches || !hasFrom ? 0 : 1.3;
+ const duration = animate ? SCENE_MOTION.duration : 0;
  await new Promise(resolve => {
   transition = gsap.timeline({ onComplete: resolve });
-  if (duration) addQueuedReveal(transition, to, { at: .18, reducedMotion: reduced.matches, instant: state.mode === 'seek' });
-  else createQueuedReveal(to, { instant: true });
+  if (mapMorph) transition.add(mapMorph.timeline.paused(false), 0);
+  addSceneReveal(transition, to, { instant: !duration, direction });
   if (arc) {
    gsap.set(to, { opacity: 1 });
    const arcClock = { progress: 0 };
-   transition.to(arcClock, { progress: 1, duration, ease: 'power2.inOut', onUpdate: () => arc.draw(arcClock.progress) }, 0);
+   transition.to(arcClock, { progress: 1, duration, ease: SCENE_MOTION.ease, onUpdate: () => arc.draw(arcClock.progress) }, 0);
   } else transition.to(to, { opacity: 1, duration: duration * .82, ease: 'power2.inOut' }, 0);
-  transition.fromTo(to.querySelector('.scene-inner'), { y: duration ? direction * 38 : 0, scale: duration ? .965 : 1 }, { y: 0, scale: 1, duration, ease: 'power3.out' }, 0);
+  // Keep the editorial canvas stable. Individual masks share the arc's rhythm.
+  gsap.set(to.querySelector('.scene-inner'), { clearProps: 'transform,opacity' });
   if (hasFrom && from !== to) {
    if (!arc) transition.to(from, { opacity: 0, duration: duration * .9, ease: 'power2.inOut' }, 0);
-   transition.to(from.querySelector('.scene-inner'), { y: -direction * 26, scale: 1.025, duration, ease: 'power2.inOut' }, 0);
+   transition.to(from.querySelector('.scene-inner'), { opacity: 0, y: -direction * 16, duration: duration ? .32 : 0, ease: 'power2.in' }, 0);
   }
   if (isCollection(from) || isCollection(to)) {
    transition.to(focus, { value: isCollection(to) ? 0 : 1, duration, ease: 'power3.inOut', onUpdate: () => art?.setFocus(focus.value) }, 0);
   }
-  const controls = to.querySelectorAll('.scene-cta');
-  if (controls.length) transition.fromTo(controls, { opacity: duration ? 0 : 1, y: duration ? 14 : 0 }, { opacity: 1, y: 0, duration: duration * .5, ease: 'power2.out', stagger: .04 }, duration * .5);
   if (!duration) transition.progress(1);
  });
- arc?.dispose();
+ arc?.dispose(); mapMorph?.finish();
  for (const scene of scenes) {
   const active = scene === to;
   scene.classList.toggle('active', active); scene.inert = !active; scene.setAttribute('aria-hidden', String(!active));
   if (!active) {
    gsap.set(scene, { clearProps: 'opacity,zIndex,pointerEvents' });
    gsap.set(scene.querySelector('.scene-inner'), { clearProps: 'transform,opacity' });
+   settleSceneReveal(scene);
   }
  }
  gsap.set(to, { clearProps: 'opacity,zIndex,pointerEvents' }); to.inert = false;
@@ -262,6 +276,7 @@ stage.addEventListener('touchend', event => {
  touch = null;
  if (Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) * 1.8) stepBy(dx < 0 ? 1 : -1);
 }, { passive: true });
+document.addEventListener('space-opportunity-change', updateChrome);
 document.addEventListener('visibilitychange', refreshMotion);
 reduced.addEventListener('change', () => { state.motion = !reduced.matches; refreshMotion(); });
 addEventListener('fullscreenchange', () => { setText('#fullscreen-button', document.fullscreenElement ? 'Exit full screen' : 'Full screen'); resize(); });
@@ -279,10 +294,13 @@ async function seekTime(time) {
  timelines[scenes[index].dataset.compositionId].seek(local).pause();
  if (isCollection(scenes[index])) { art?.seek(local); art?.setFocus(0); }
  if (scenes[index].dataset.compositionId === 'office-art') officeAccordion?.seek(local);
+ spaceOpportunities.seek(scenes[index], local);
+ if (isProjectCover(scenes[index])) projectField?.seek(local);
  updateChrome();
 }
 addEventListener('hf-seek', event => { const promise = seekTime(Number(event.detail?.time) || 0); event.detail?.waitUntil?.(promise); });
 const ready = (async () => {
+ const projectReady = mountProjectField($('#project-field')).then(field => { projectField = field; }).catch(error => console.warn(error));
  try {
   const response = await fetch('assets/art/manifest.json');
   if (!response.ok) throw new Error('The artwork catalogue could not be loaded.');
@@ -290,9 +308,10 @@ const ready = (async () => {
   art = mountArtField($('#art-field'), artworks, { onSelect: openArt });
   $('#art-field').removeAttribute('aria-hidden');
  } catch (error) { console.warn(error); }
+ await projectReady;
  const hash = decodeURIComponent(location.hash.slice(1));
  const initial = scenes.findIndex(scene => scene.dataset.compositionId === hash);
- await go(initial < 0 ? 0 : initial, { instant: true });
+ await go(initial < 0 ? 0 : initial, { instant: reduced.matches });
  return true;
 })();
 window.rbbDeck = {

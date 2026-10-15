@@ -1,0 +1,572 @@
+[
+  {
+    "id": "busch",
+    "title": "Busch Stadium and Busch Memorial Stadium Renovations",
+    "shortTitle": "Busch Stadium",
+    "src": "assets/projects/civic-busch-stadium-2.webp",
+    "card_src": "assets/projects/civic-busch-stadium-2.webp",
+    "preview_src": "assets/projects/civic-busch-stadium-2.webp",
+    "card_dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "url": "https://claycorp.com/project/busch-stadium",
+    "imageType": "Photography",
+    "alt": "Busch Stadium and Busch Memorial Stadium Renovations. St. Louis, Missouri. Photography"
+  },
+  {
+    "id": "kingshighway",
+    "title": "Kingshighway: a neighborhood transformed",
+    "shortTitle": "Kingshighway / three stories",
+    "src": "assets/projects/civic-100-above-the-park-1.webp",
+    "card_src": "assets/projects/civic-100-above-the-park-1.webp",
+    "preview_src": "assets/projects/civic-100-above-the-park-1.webp",
+    "card_dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "url": "https://claycorp.com/project/100-above-the-park",
+    "imageType": "Photography",
+    "alt": "Kingshighway: a neighborhood transformed. St. Louis, Missouri. Photography"
+  },
+  {
+    "id": "kali",
+    "title": "Kali Hotel",
+    "shortTitle": "Kali Hotel",
+    "src": "assets/projects/civic-kali-hotel-3.webp",
+    "card_src": "assets/projects/civic-kali-hotel-3.webp",
+    "preview_src": "assets/projects/civic-kali-hotel-3.webp",
+    "card_dimensions": {
+      "width": 1366,
+      "height": 1044
+    },
+    "dimensions": {
+      "width": 1366,
+      "height": 1044
+    },
+    "url": "https://claycorp.com/project/kali-hotel",
+    "imageType": "Rendering",
+    "alt": "Kali Hotel. Inglewood, California. Rendering"
+  },
+  {
+    "id": "palmtower",
+    "title": "PALMTower",
+    "shortTitle": "PALMtower",
+    "src": "assets/projects/civic-palmtower-1.webp",
+    "card_src": "assets/projects/civic-palmtower-1.webp",
+    "preview_src": "assets/projects/civic-palmtower-1.webp",
+    "card_dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "url": "https://claycorp.com/project/palmtower",
+    "imageType": "Photography",
+    "alt": "PALMTower. Phoenix, Arizona. Photography"
+  },
+  {
+    "id": "upshore",
+    "title": "Upshore Chapter",
+    "shortTitle": "Upshore Chapter",
+    "src": "assets/projects/civic-upshore-chapter-1.webp",
+    "card_src": "assets/projects/civic-upshore-chapter-1.webp",
+    "preview_src": "assets/projects/civic-upshore-chapter-1.webp",
+    "card_dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "url": "https://claycorp.com/project/upshore-chapter",
+    "imageType": "Photography",
+    "alt": "Upshore Chapter. Chicago, Illinois. Photography"
+  },
+  {
+    "id": "scad",
+    "title": "SCAD: Indian Street \u00b7 Forty \u00b7 Forty Four",
+    "shortTitle": "SCAD / three places to learn",
+    "src": "assets/projects/civic-scad-forty-four-1.webp",
+    "card_src": "assets/projects/civic-scad-forty-four-1.webp",
+    "preview_src": "assets/projects/civic-scad-forty-four-1.webp",
+    "card_dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "url": "https://claycorp.com/project/scad-forty-four",
+    "imageType": "Photography",
+    "alt": "SCAD: Indian Street \u00b7 Forty \u00b7 Forty Four. Savannah & Atlanta, Georgia. Photography"
+  },
+  {
+    "id": "chaifetz",
+    "title": "Chaifetz Arena at Saint Louis University",
+    "shortTitle": "Chaifetz Arena",
+    "src": "assets/projects/civic-chaifetz-arena-at-saint-louis-university-1.webp",
+    "card_src": "assets/projects/civic-chaifetz-arena-at-saint-louis-university-1.webp",
+    "preview_src": "assets/projects/civic-chaifetz-arena-at-saint-louis-university-1.webp",
+    "card_dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "url": "https://claycorp.com/project/chaifetz-arena-at-saint-louis-university",
+    "imageType": "Photography",
+    "alt": "Chaifetz Arena at Saint Louis University. St. Louis, Missouri. Photography"
+  },
+  {
+    "id": "falcons",
+    "title": "Atlanta Falcons Headquarters & Training",
+    "shortTitle": "Atlanta Falcons",
+    "src": "assets/projects/civic-atlanta-falcons-corporate-headquarters-and-training-facility-1.webp",
+    "card_src": "assets/projects/civic-atlanta-falcons-corporate-headquarters-and-training-facility-1.webp",
+    "preview_src": "assets/projects/civic-atlanta-falcons-corporate-headquarters-and-training-facility-1.webp",
+    "card_dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "url": "https://claycorp.com/project/atlanta-falcons-corporate-headquarters-and-training-facility",
+    "imageType": "Photography",
+    "alt": "Atlanta Falcons Headquarters & Training. Flowery Branch, Georgia. Photography"
+  },
+  {
+    "id": "pfizer",
+    "title": "Pfizer Research & Development Facility",
+    "shortTitle": "Pfizer R&D",
+    "src": "assets/projects/workcare-pfizer-rd-facility-2.webp",
+    "card_src": "assets/projects/workcare-pfizer-rd-facility-2.webp",
+    "preview_src": "assets/projects/workcare-pfizer-rd-facility-2.webp",
+    "card_dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "url": "https://claycorp.com/project/pfizer-rd-facility",
+    "imageType": "Photography",
+    "alt": "Pfizer Research & Development Facility. Chesterfield, Missouri. Photography"
+  },
+  {
+    "id": "willis",
+    "title": "Willis Tower Transformation",
+    "shortTitle": "Willis Tower transformation",
+    "src": "assets/projects/workcare-willis-tower-transformation-project-1.webp",
+    "card_src": "assets/projects/workcare-willis-tower-transformation-project-1.webp",
+    "preview_src": "assets/projects/workcare-willis-tower-transformation-project-1.webp",
+    "card_dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "url": "https://claycorp.com/project/willis-tower-transformation-project",
+    "imageType": "Photography",
+    "alt": "Willis Tower Transformation. Chicago, Illinois. Photography"
+  },
+  {
+    "id": "zurich",
+    "title": "Zurich North America Headquarters",
+    "shortTitle": "Zurich headquarters",
+    "src": "assets/projects/workcare-zurich-north-america-headquarters-2.webp",
+    "card_src": "assets/projects/workcare-zurich-north-america-headquarters-2.webp",
+    "preview_src": "assets/projects/workcare-zurich-north-america-headquarters-2.webp",
+    "card_dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "url": "https://claycorp.com/project/zurich-north-america-headquarters",
+    "imageType": "Photography",
+    "alt": "Zurich North America Headquarters. Schaumburg, Illinois. Photography"
+  },
+  {
+    "id": "centene",
+    "title": "Centene \u2014 a connected campus",
+    "shortTitle": "Centene campus + portfolio",
+    "src": "assets/projects/workcare-centene-centre-1.webp",
+    "card_src": "assets/projects/workcare-centene-centre-1.webp",
+    "preview_src": "assets/projects/workcare-centene-centre-1.webp",
+    "card_dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "url": "https://claycorp.com/project/centene-centre",
+    "imageType": "Photography",
+    "alt": "Centene \u2014 a connected campus. Clayton, Missouri. Photography"
+  },
+  {
+    "id": "dominion",
+    "title": "Dominion Energy\u2019s Thomas F. Farrell Building",
+    "shortTitle": "Dominion Energy",
+    "src": "assets/projects/workcare-dominion-energy-new-downtown-office-tower-1.webp",
+    "card_src": "assets/projects/workcare-dominion-energy-new-downtown-office-tower-1.webp",
+    "preview_src": "assets/projects/workcare-dominion-energy-new-downtown-office-tower-1.webp",
+    "card_dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "url": "https://claycorp.com/project/dominion-energy-new-downtown-office-tower",
+    "imageType": "Photography",
+    "alt": "Dominion Energy\u2019s Thomas F. Farrell Building. Richmond, Virginia. Photography"
+  },
+  {
+    "id": "siteman",
+    "title": "Gary C. Werths Building at Siteman Cancer Center",
+    "shortTitle": "Siteman Cancer Center",
+    "src": "assets/projects/workcare-washington-university-school-of-medicine-barnes-jewish-hospital-siteman-cancer-center-1.webp",
+    "card_src": "assets/projects/workcare-washington-university-school-of-medicine-barnes-jewish-hospital-siteman-cancer-center-1.webp",
+    "preview_src": "assets/projects/workcare-washington-university-school-of-medicine-barnes-jewish-hospital-siteman-cancer-center-1.webp",
+    "card_dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "url": "https://claycorp.com/project/washington-university-school-of-medicine-barnes-jewish-hospital-siteman-cancer-center",
+    "imageType": "Photography",
+    "alt": "Gary C. Werths Building at Siteman Cancer Center. St. Louis, Missouri. Photography"
+  },
+  {
+    "id": "mercy",
+    "title": "Mercy Virtual Care Center",
+    "shortTitle": "Mercy Virtual Care",
+    "src": "assets/projects/workcare-mercy-virtual-care-center-2.webp",
+    "card_src": "assets/projects/workcare-mercy-virtual-care-center-2.webp",
+    "preview_src": "assets/projects/workcare-mercy-virtual-care-center-2.webp",
+    "card_dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "url": "https://claycorp.com/project/mercy-virtual-care-center",
+    "imageType": "Photography",
+    "alt": "Mercy Virtual Care Center. Chesterfield, Missouri. Photography"
+  },
+  {
+    "id": "lurie",
+    "title": "Lurie Children\u2019s Hospital and Outpatient Center",
+    "shortTitle": "Lurie Children\u2019s",
+    "src": "assets/projects/workcare-lurie-childrens-hospital-and-outpatient-center-1.webp",
+    "card_src": "assets/projects/workcare-lurie-childrens-hospital-and-outpatient-center-1.webp",
+    "preview_src": "assets/projects/workcare-lurie-childrens-hospital-and-outpatient-center-1.webp",
+    "card_dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "url": "https://claycorp.com/project/lurie-childrens-hospital-and-outpatient-center",
+    "imageType": "Rendering",
+    "alt": "Lurie Children\u2019s Hospital and Outpatient Center. Downers Grove, Illinois. Rendering"
+  },
+  {
+    "id": "rbb",
+    "title": "Russell Burns Building",
+    "shortTitle": "Russell Burns Building",
+    "src": "assets/projects/workcare-clayco-st-louis-office-1.webp",
+    "card_src": "assets/projects/workcare-clayco-st-louis-office-1.webp",
+    "preview_src": "assets/projects/workcare-clayco-st-louis-office-1.webp",
+    "card_dimensions": {
+      "width": 800,
+      "height": 601
+    },
+    "dimensions": {
+      "width": 800,
+      "height": 601
+    },
+    "url": "https://claycorp.com/project/clayco-st-louis-office",
+    "imageType": "Photography",
+    "alt": "Russell Burns Building. Berkeley, Missouri. Photography"
+  },
+  {
+    "id": "vanguard",
+    "title": "Vanguard Charlotte Campus",
+    "shortTitle": "Vanguard / Charlotte",
+    "src": "assets/projects/workcare-vanguard-office-campus-1.webp",
+    "card_src": "assets/projects/workcare-vanguard-office-campus-1.webp",
+    "preview_src": "assets/projects/workcare-vanguard-office-campus-1.webp",
+    "card_dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "url": "https://claycorp.com/project/vanguard-office-campus",
+    "imageType": "Photography",
+    "alt": "Vanguard Charlotte Campus. Charlotte, North Carolina. Photography"
+  },
+  {
+    "id": "rivian",
+    "title": "Rivian R2 Plant Expansion",
+    "shortTitle": "Rivian R2 expansion",
+    "src": "assets/projects/industrial-rivian.webp",
+    "card_src": "assets/projects/industrial-rivian.webp",
+    "preview_src": "assets/projects/industrial-rivian.webp",
+    "card_dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "url": "https://claycorp.com/project/rivian-r2-plant-expansion",
+    "imageType": "Photography",
+    "alt": "Rivian R2 Plant Expansion. Normal, Illinois. Photography"
+  },
+  {
+    "id": "hankook",
+    "title": "Hankook Tire Manufacturing Facility Expansion",
+    "shortTitle": "Hankook Tire",
+    "src": "assets/projects/industrial-hankook.webp",
+    "card_src": "assets/projects/industrial-hankook.webp",
+    "preview_src": "assets/projects/industrial-hankook.webp",
+    "card_dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "url": "https://claycorp.com/project/hankook-tire-manufacturing-facility-expansion",
+    "imageType": "Photography",
+    "alt": "Hankook Tire Manufacturing Facility Expansion. Clarksville, Tennessee. Photography"
+  },
+  {
+    "id": "psiquantum",
+    "title": "Illinois Quantum and Microelectronics Park",
+    "shortTitle": "PsiQuantum / IQMP",
+    "src": "assets/projects/industrial-psiquantum.webp",
+    "card_src": "assets/projects/industrial-psiquantum.webp",
+    "preview_src": "assets/projects/industrial-psiquantum.webp",
+    "card_dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "url": "https://claycorp.com/project/psiquantum-campus",
+    "imageType": "Rendering",
+    "alt": "Illinois Quantum and Microelectronics Park. Chicago, Illinois. Rendering"
+  },
+  {
+    "id": "galaxy-helios",
+    "title": "Galaxy Digital Helios Conversion",
+    "shortTitle": "Galaxy Helios",
+    "src": "assets/projects/industrial-galaxy-helios.webp",
+    "card_src": "assets/projects/industrial-galaxy-helios.webp",
+    "preview_src": "assets/projects/industrial-galaxy-helios.webp",
+    "card_dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "url": "https://claycorp.com/project/galaxy-digital-helios-renovation",
+    "imageType": "Construction photography",
+    "alt": "Galaxy Digital Helios Conversion. Afton, Texas. Construction photography"
+  },
+  {
+    "id": "related-digital",
+    "title": "Related Digital Cheyenne Data Center Campus",
+    "shortTitle": "Related Digital",
+    "src": "assets/projects/industrial-related-digital.webp",
+    "card_src": "assets/projects/industrial-related-digital.webp",
+    "preview_src": "assets/projects/industrial-related-digital.webp",
+    "card_dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "url": "https://claycorp.com/project/related-digital-cheyenne-data-center-campus",
+    "imageType": "Rendering",
+    "alt": "Related Digital Cheyenne Data Center Campus. Cheyenne, Wyoming. Rendering"
+  },
+  {
+    "id": "sk-battery",
+    "title": "SK Battery America, Inc.",
+    "shortTitle": "SK Battery",
+    "src": "assets/projects/industrial-sk-battery.webp",
+    "card_src": "assets/projects/industrial-sk-battery.webp",
+    "preview_src": "assets/projects/industrial-sk-battery.webp",
+    "card_dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "url": "https://claycorp.com/project/sk-battery-america-inc",
+    "imageType": "Photography",
+    "alt": "SK Battery America, Inc.. Commerce, Georgia. Photography"
+  },
+  {
+    "id": "blue-origin",
+    "title": "Blue Origin Engine Facility",
+    "shortTitle": "Blue Origin",
+    "src": "assets/projects/industrial-blue-origin.webp",
+    "card_src": "assets/projects/industrial-blue-origin.webp",
+    "preview_src": "assets/projects/industrial-blue-origin.webp",
+    "card_dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "url": "https://claycorp.com/project/blue-origin-engine-facility",
+    "imageType": "Photography",
+    "alt": "Blue Origin Engine Facility. Huntsville, Alabama. Photography"
+  },
+  {
+    "id": "hershey-garage",
+    "title": "Penn State Health Westview Garage",
+    "shortTitle": "Hershey / Westview Garage",
+    "src": "assets/projects/industrial-hershey-garage.webp",
+    "card_src": "assets/projects/industrial-hershey-garage.webp",
+    "preview_src": "assets/projects/industrial-hershey-garage.webp",
+    "card_dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "url": "https://claycorp.com/project/penn-state-health-westview-garage",
+    "imageType": "Photography",
+    "alt": "Penn State Health Westview Garage. Hershey, Pennsylvania. Photography"
+  },
+  {
+    "id": "the-cubes",
+    "title": "The Cubes",
+    "shortTitle": "The Cubes",
+    "src": "assets/projects/industrial-the-cubes.webp",
+    "card_src": "assets/projects/industrial-the-cubes.webp",
+    "preview_src": "assets/projects/industrial-the-cubes.webp",
+    "card_dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "url": "https://claycorp.com/project/the-cubes",
+    "imageType": "Portfolio photography",
+    "alt": "The Cubes. Multiple locations. Portfolio photography"
+  },
+  {
+    "id": "amazon",
+    "title": "Amazon E-Commerce Centers",
+    "shortTitle": "Amazon",
+    "src": "assets/projects/industrial-amazon.webp",
+    "card_src": "assets/projects/industrial-amazon.webp",
+    "preview_src": "assets/projects/industrial-amazon.webp",
+    "card_dimensions": {
+      "width": 800,
+      "height": 534
+    },
+    "dimensions": {
+      "width": 800,
+      "height": 534
+    },
+    "url": "https://claycorp.com/project/amazon-e-commerce-centers",
+    "imageType": "Portfolio photography",
+    "alt": "Amazon E-Commerce Centers. Multiple locations. Portfolio photography"
+  },
+  {
+    "id": "caterpillar",
+    "title": "Caterpillar Excavator Manufacturing Plant",
+    "shortTitle": "Caterpillar",
+    "src": "assets/projects/industrial-caterpillar.webp",
+    "card_src": "assets/projects/industrial-caterpillar.webp",
+    "preview_src": "assets/projects/industrial-caterpillar.webp",
+    "card_dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "url": "https://claycorp.com/project/caterpillar-excavator-manufacturing-plant",
+    "imageType": "Photography",
+    "alt": "Caterpillar Excavator Manufacturing Plant. Victoria, Texas. Photography"
+  },
+  {
+    "id": "mark-anthony",
+    "title": "Mark Anthony Brewing",
+    "shortTitle": "Mark Anthony Brewing",
+    "src": "assets/projects/industrial-mark-anthony.webp",
+    "card_src": "assets/projects/industrial-mark-anthony.webp",
+    "preview_src": "assets/projects/industrial-mark-anthony.webp",
+    "card_dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "dimensions": {
+      "width": 1600,
+      "height": 778
+    },
+    "url": "https://claycorp.com/project/mark-anthony-brewery",
+    "imageType": "Photography",
+    "alt": "Mark Anthony Brewing. Columbia, South Carolina. Photography"
+  }
+]

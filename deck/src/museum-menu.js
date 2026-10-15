@@ -6,7 +6,8 @@
 const GROUPS = [
   { title: 'Invitation', ids: ['invitation-cover', 'living-portrait', 'why-we-build', 'partner-invitation'] },
   { title: 'Seminal projects', ids: ['projects-civic', 'projects-work', 'projects-care', 'projects-industry'] },
-  { title: 'Collaboration', ids: ['hope-plaza', 'collection', 'office-art', 'collection-artists', 'possibility'] },
+  { title: 'Collaboration', ids: ['hope-plaza', 'collection', 'office-art', 'collection-artists'] },
+  { title: 'Possibilities', ids: ['opportunities-plan','opportunity-experience','opportunity-prefunction','opportunity-timeline','possibility'] },
 ];
 const LABELS = {
   'invitation-cover': 'How vision takes form', 'living-portrait': 'A living portrait',
@@ -16,6 +17,8 @@ const LABELS = {
   'hope-plaza': 'A place for hope', collection: 'The Clark Collection',
   'office-art': 'Art in our spaces', 'collection-artists': 'Artists and perspectives',
   possibility: 'Imagine together',
+  'opportunities-plan': 'One possible setting', 'opportunity-experience': 'Experience room',
+  'opportunity-prefunction': 'Pre-function gallery', 'opportunity-timeline': 'Timeline corridor',
 };
 
 function loadStyles() {
@@ -64,8 +67,7 @@ export function mountMuseumMenu(host, { scenes = [], onSelect, onClose, getIndex
       </div>
       <nav class="museum-menu__links-row" aria-label="Presentation chapters"></nav>
       <div class="museum-menu__logo-row">
-        <p class="museum-menu__eyebrow museum-menu__tagline">How vision takes form</p>
-        <svg class="museum-menu__wordmark" viewBox="0 0 1360 180" role="img" aria-label="Clayco" focusable="false"><text x="0" y="164" textLength="1360" lengthAdjust="spacingAndGlyphs">CLAYCO</text></svg>
+        <img class="museum-menu__wordmark" src="assets/brand/clayco-black.svg" width="204" height="51" alt="Clayco">
       </div>
     </div>
     <div class="museum-menu__shade" data-footer-parallax-dark aria-hidden="true"></div>`;
