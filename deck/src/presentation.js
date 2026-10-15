@@ -74,7 +74,7 @@ function updateChrome() {
  $('#motion-button')?.setAttribute('aria-pressed', String(state.motion));
  setText('#status', `Slide ${state.index + 1}. ${current.dataset.label}`);
  if (nav) {
-  nav.dataset.theme = current.matches('.source-statement,.invitation-cover,.seminal-projects,.office-art,.space-opportunity--night') ? 'dark' : 'light';
+  nav.dataset.theme = current.matches('.source-statement,.invitation-cover,.seminal-projects,.office-art,.collaboration-invitation,.space-opportunity--night') ? 'dark' : 'light';
   nav.hidden = menuWanted || menuBusy;
   nav.inert = menuWanted || menuBusy;
  }

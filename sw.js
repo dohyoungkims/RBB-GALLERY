@@ -1,4 +1,4 @@
-// RBB public release df1254975414e788d918: permanently retire encrypted routing.
+// RBB public release 4685c8060f90a0103440: permanently retire encrypted routing.
 self.addEventListener('install',event=>event.waitUntil(self.skipWaiting()));
 self.addEventListener('message',event=>{
   if(event.data?.type==='RBB_PUBLIC_PING')event.ports?.[0]?.postMessage({public:true,version:1});
